@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Forms Answers Helper",
+  "version": "1.0",
+  "permissions": ["activeTab", "scripting"],
+  "content_scripts": [
+    {
+      "matches": ["https://forms.office.com/*"],
+      "resources": ["answers.json"],
+      "css": ["styles.css"],
+      "js": ["content.js"]
+    }
+  ],
+  "icons": {
+    "128": "icon.png"
+  }
+}
