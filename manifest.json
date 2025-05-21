@@ -3,10 +3,15 @@
   "name": "Forms Answers Helper",
   "version": "1.0",
   "permissions": ["activeTab", "scripting"],
+  "web_accessible_resources": [
+    {
+      "resources": ["answers.json"],
+      "matches": ["<all_urls>"]
+    }
+  ],
   "content_scripts": [
     {
       "matches": ["https://forms.office.com/*"],
-      "resources": ["answers.json"],
       "css": ["styles.css"],
       "js": ["content.js"]
     }
