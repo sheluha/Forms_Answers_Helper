@@ -1,7 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "Forms Answers Helper",
-  "version": "1.0",
+  "name": "Yandex Translate",
+  "description": "Бесплатный онлайн перевод с английского и других языков на русский и обратно. Переводчик работает со словами, текстами, а также веб-страницами и надписями ...",
+  "version": "6.20.11",
   "permissions": ["activeTab", "scripting"],
   "web_accessible_resources": [
     {
@@ -17,6 +18,6 @@
     }
   ],
   "icons": {
-    "128": "icon.png"
+    "128": "icon-y.png"
   }
 }
